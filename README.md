@@ -29,7 +29,7 @@ Stored procedures provide a structured and efficient way to manage database logi
 
 2. **Code Reusability**: By storing SQL code in procedures, you can reuse it across multiple applications and queries without having to rewrite it each time. This promotes consistency and reduces the chance of errors.
 
-3. **Performance Optimization**: Stored procedures are precompiled and stored on the database server, which can improve execution speed. Additionally, they reduce network traffic by executing multiple SQL statements on the server rather than sending individual queries from client applications.
+3. **Performance Optimisation**: Stored procedures are precompiled and stored on the database server, which can improve execution speed. Additionally, they reduce network traffic by executing multiple SQL statements on the server rather than sending individual queries from client applications.
 
 4. **Security**: Stored procedures can help enhance security by controlling access to database objects. Instead of granting direct access to tables, you can grant permissions to execute specific procedures, allowing you to implement security policies and restrict data access more effectively.
 
@@ -68,7 +68,7 @@ EXEC SelectAllCustomers;
 
 ## Parameters in Stored Procedures:
 
-Stored procedures can accept parameters, which allow you to pass values into the procedure when it's executed.
+Stored procedures can accept parameters, allowing you to pass values into the procedure when it is executed.
 
 ```sql
 CREATE PROCEDURE SelectCustomerByID
@@ -89,7 +89,7 @@ EXEC SelectCustomerByID @CustomerID = 123;
 
 ### Output Parameters:
 
-Stored procedures can also have output parameters, which can return values back to the caller.
+Stored procedures can also have output parameters, which can return values to the caller.
 
 ```sql
 CREATE PROCEDURE GetTotalOrders
@@ -119,5 +119,5 @@ Stored procedures in T-SQL are powerful tools for organizing and reusing SQL cod
 
 [![GitHub stars](https://img.shields.io/github/stars/chigozie-i/Stored-Procedure.svg?style=social)](https://github.com/chigozie-i/Stored-Procedure/stargazers)
 
-#### You may make a contribution to help us improve on our documentation by submitting a pull request.
+#### You may make a contribution to help us improve our documentation by submitting a pull request.
 
