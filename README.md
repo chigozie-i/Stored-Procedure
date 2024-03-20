@@ -12,7 +12,7 @@
 - [Conclusion](#Conclusion)
 - [Reference](#Reference)
 
-## What is a Stored Procedure?
+## Stored Procedure
 
 A Stored Procedure in T-SQL (Transact-SQL) is a precompiled collection of SQL statements, to be executed whenever needed. It's like a saved set of instructions that can be reused multiple times without rewriting them.
 
