@@ -21,10 +21,6 @@ A Stored Procedure in T-SQL (Transact-SQL) is a precompiled collection of SQL st
 
 Stored procedures provide a structured and efficient way to manage database logic, promote code reusability, optimize performance, and enhance security and transaction management in database applications.
 
-1. **Code Reusability**: You write the code once and reuse it whenever needed.
-2. **Performance**: Stored procedures are precompiled, which can improve performance as the SQL statements don't need to be parsed and compiled every time they're executed.
-3. **Security**: Stored procedures can control access to data, providing a layer of security.
-
 1. **Modularity**: Stored procedures allow you to break down complex tasks into smaller, more manageable units. This makes it easier to maintain and update your database codebase.
 
 2. **Code Reusability**: By storing SQL code in procedures, you can reuse it across multiple applications and queries without having to rewrite it each time. This promotes consistency and reduces the chance of errors.
