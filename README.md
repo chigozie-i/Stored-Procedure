@@ -1,5 +1,6 @@
 ![RDB](https://github.com/chigozie-i/Stored-Procedure/blob/main/Stored%20Procedure.jpg)
 
+## Introduction
 Structured databases are queried using a Structured Query Language (SQL). While slight variations may exist in the SQL code depending on the database type, the fundamental concepts remain consistent. When querying an SQL database, instructions are composed in code (T-SQL). To streamline repeated instructions, they can be encapsulated and stored for future use through a process known as a STORED PROCEDURE.
 
 ### Table of Contents
