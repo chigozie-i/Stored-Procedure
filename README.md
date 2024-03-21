@@ -15,6 +15,11 @@ Relational databases are queried using a Structured Query Language (SQL). While 
 
 ## Stored Procedure
 
+SQL can be likened to a language with diverse dialects. My primary dialect is Transact-SQL (T-SQL), utilised in Microsoft SQL server.
+When querying a database, instructions are composed in code. Repeatedly used instructions, can be encapsulated and stored for future use through a process known as a STORED PROCEDURE.
+The idea behind stored procedures is to enable the storage and management of frequently used SQL code directly within the database server. This eliminates the need to rewrite your code thereby simplifying the task of maintaining data integrity and consistency, especially in complex operations involving multiple database alterations.
+Stored procedures offer a structured and effective method for handling the rules, procedures, and operations that govern the manipulation and management of data within a database system by encouraging the reuse of code, enhancing performance optimization, and bolstering security and transaction management within database applications.
+
 A Stored Procedure in T-SQL (Transact-SQL) is a precompiled collection of SQL statements, to be executed whenever needed. It's like a saved set of instructions that can be reused multiple times without rewriting them.
 
 ## Why Use Stored Procedures?
